@@ -1,0 +1,31 @@
+<div class="page-header">
+    <div class="avazura-header">
+      <div class="page-header-logo"></div>
+      <!-- <a class="page-header-name" href="">AVAZURA</a> -->      
+      <img class="page-header-logo-img" src="assets/images/logos/Top-Avazura.svg" alt="Avazura" />
+    </div>
+    <div class="expandable-icon non-desktop" (click)="toggleMenu()"> <fa-icon [icon]="faBars" size="lg"></fa-icon></div>
+    <div class="page-header-menu desktop">
+      <a class="page-header-menu-text" href="/">Home</a>
+      <a class="page-header-menu-text" href="/about">About</a>
+      <a class="page-header-menu-text" href="/partnership">Partnerships</a>
+      <a class="page-header-menu-text" href="/career">Career</a> 
+      <a class="page-header-menu-text" href="/contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="sliding-div" [ngClass]="{'slide-down': isMenuOpen}">
+    <!-- Close icon in the top-right corner -->
+    <div class="close-icon" (click)="toggleMenu()">
+      <fa-icon [icon]="faBars" size="lg"></fa-icon>
+    </div>
+  
+    <!-- Links container -->
+    <div class="links-container">
+      <a class="page-header-menu-text" href="/">Home</a>
+      <a class="page-header-menu-text" href="/about">About</a>
+      <a class="page-header-menu-text" href="/partnership">Partnerships</a>
+      <a class="page-header-menu-text" href="/career">Career</a> 
+      <a class="page-header-menu-text" href="/contact">Contact</a>
+    </div>
+  </div>

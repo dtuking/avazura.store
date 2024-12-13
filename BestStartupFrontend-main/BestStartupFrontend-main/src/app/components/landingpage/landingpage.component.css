@@ -1,0 +1,382 @@
+.background{
+    background-color: #EDF5FF;
+    width: 100%;
+}
+.intro-background{
+    /* background-color: aqua; */
+    background: linear-gradient(0deg, rgba(3, 0, 156, 0.75), rgba(3, 0, 156, 0.75)), url("https://cdn.pixabay.com/photo/2023/08/26/14/04/living-room-8215143_1280.jpg");
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 50% 100%, 0 78%);
+    color: #ffffff;
+
+}
+.arrow-head-container-header{
+    position: relative;
+    /* width: 200px; */
+    min-height: 51vh;
+    background: linear-gradient(0deg, rgba(3, 0, 156, 0.75), rgba(3, 0, 156, 0.75)), url("https://cdn.pixabay.com/photo/2023/08/26/14/04/living-room-8215143_1280.jpg");
+    color: #ffffff;
+    background-size: cover;
+}
+.landingpage-header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.landingpage-header-menu {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.landingpage-header-menu-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.landingpage-header-name {
+    display: inline-flex;
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.landingpage-intro{
+    padding: 6rem 33rem 0rem 33rem;
+    text-align: center;
+    margin: auto;
+}
+
+.main-text {
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+
+.small-text{
+    padding-top: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-icon {
+    text-decoration: none;
+    color:#ffffff;
+  }
+
+  .text-partners{
+    text-align:center;
+    margin-top: 5rem;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .partners-logos{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-bottom: 8%;
+
+  }
+
+  .partners-logos img{
+    height: 3rem;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(1) contrast(100) brightness(1);
+    /* filter: grayscale(100%); */
+    cursor: pointer;
+    width: 195px;
+  }
+
+  .partners-products{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+  }
+
+  .partners-products img{
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    object-position: bottom;
+    cursor: pointer;
+  }
+
+  .newsletter-reminder-section{
+    padding: 0rem 0rem 10rem 0rem
+  }
+  
+  .newsletter-reminder{
+    text-align:center;
+    margin-top: 10rem;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .newsletter-reminder-below{
+    text-align:center;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+  .landingpage-aboutus{
+    padding-top: 6rem;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    color:white;
+    padding-bottom:7rem
+  }
+
+  .landingpage-aboutus-background{
+    color:white;
+    background-color: #03009C;
+    padding-bottom: 10rem;
+    clip-path: polygon(0 0, 50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+  }
+
+  .main-text-aboutus {
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-top: 5rem;
+}
+
+.small-text-aboutus{
+    margin-top: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.small-text-aboutus-bold{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+  .coming-soon-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    font-size: 35px;
+    font-family: 'Outfit', sans-serif;
+
+  }
+  .product-page-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -6rem;
+  }
+
+  /* for the arrow shaped div */
+  .arrow-head-container {
+    position: relative;
+    /* width: 200px; */
+    min-height: 51vh;
+    background-color: #03009C; /* Blue background color */
+  }
+
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+
+  .triangle.left {
+    border-left: 50vw solid #EDF5FF;
+    border-top: 8vw solid transparent;
+    bottom: 0;
+    left: 0;
+  }
+
+  .triangle.right {
+    border-right: 50vw solid #EDF5FF;
+    border-top: 8vw solid transparent;
+    bottom: 0;
+    right: 0;
+  }
+
+  .triangle.top-left {
+    border-right: 50vw solid transparent;
+    border-bottom: 8vw solid #EDF5FF;
+    top: 0;
+    left: 0;
+    transform: scaleY(-1) scaleX(-1);
+    transform-origin: center;
+  }
+
+  .triangle.top-right {
+    border-left: 50vw solid transparent;
+    border-bottom: 8vw solid #EDF5FF;
+    top: 0;
+    right: 0;
+    transform: scaleX(-1) scaleY(-1);
+    transform-origin: center;
+  }
+  
+  .what-is-next-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 2%;
+    font-size: 2vw;
+  }
+
+  .see-sketch-text{
+    font-size: 1vw;
+    padding-top: 30px;
+  }
+  /* end of arrow shaped div styles*/
+
+  /* app images */
+
+  .app-images{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    margin-top:-6rem;
+    position: relative;
+    width: 70%;
+    margin-inline: auto;
+  }
+
+  .next-and-app-images{
+    display: block;
+  }
+  .phone-images{
+    max-width: 130%;
+    display: inline-block;
+    /* height: fit-content; */
+  }
+
+  .desktop {
+    display: flex;
+  }
+  .non-desktop{
+    display: none;
+  }
+
+  /*carousel section */
+  .carousel-container {
+    overflow: hidden;
+    padding: 60px 0;
+    background: #EDF5FF;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .carousel-container:hover .carousel-inner {
+    animation-play-state: paused;
+  }
+
+  .carousel-inner {
+      display: flex;
+      gap: 2rem;
+      animation: slide 10s linear infinite; 
+      width: auto;
+  }
+
+  .carousel-inner img{
+      height: 3rem;
+      width: auto;
+      object-fit: contain;
+      filter: grayscale(1) contrast(100) brightness(1);
+      cursor: pointer;
+      width: auto;
+  }
+
+/* Keyframes for sliding animation */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+  /* Styles for screens with a maximum width of 767px (typically mobile phones in portrait mode) */
+@media (max-width: 767px) {
+  .landingpage-intro{
+    padding: 1rem 3rem 0rem 3rem;
+  }
+  .partners-logos {
+    animation: slide 10s linear infinite; 
+    }
+  
+  .partners-products{
+    display: none;
+  }
+  .what-is-next-text{
+      font-size: 8vw;
+    }
+  .see-sketch-text {
+      font-size: 4vw;
+      padding-top: 30px;
+  }
+  .app-images {
+      width: 22%;
+    }
+  .newsletter-reminder-section {
+      padding: 0rem 3rem 6rem 3rem;
+    }
+  .newsletter-reminder {
+      font-size: 30px;
+      margin-top: 7rem;
+    }
+  
+  .desktop {
+    display: none;
+  }
+  
+  .non-desktop{
+    display: flex;
+  }
+
+  }
+
+
+

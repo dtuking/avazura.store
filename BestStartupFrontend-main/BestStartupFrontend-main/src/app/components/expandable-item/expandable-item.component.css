@@ -1,0 +1,35 @@
+.expandable-item-sticky-note {
+    width: 200px;
+    padding: 15px;
+    background-color: #EDF5FF;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .expandable-item-note-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expandable-item-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .expandable-item-description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    height: 0;
+    transition: height .25s ease;
+}
+  
+  .expanded .expandable-item-description {
+    height: 230px; /* Adjust this value as needed */
+  }

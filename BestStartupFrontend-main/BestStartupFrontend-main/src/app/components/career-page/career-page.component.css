@@ -1,0 +1,338 @@
+.background{
+    background-color: #EDF5FF;
+    width: 100%;
+}
+.intro-background{
+    /* background-color: aqua; */
+    background: linear-gradient(0deg, rgba(3, 0, 156, 0.75), rgba(3, 0, 156, 0.75)), url("https://cdn.pixabay.com/photo/2023/08/26/14/04/living-room-8215143_1280.jpg");
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 50% 100%, 0 78%);
+    color: #ffffff;
+
+}
+.arrow-head-container-header{
+    position: relative;
+    /* width: 200px; */
+    min-height: 51vh;
+    background: linear-gradient(0deg, rgba(3, 0, 156, 0.75), rgba(3, 0, 156, 0.75)), url("https://cdn.pixabay.com/photo/2023/08/26/14/04/living-room-8215143_1280.jpg");
+    color: #ffffff;
+    background-size: cover;
+}
+
+.career-page-header-container{
+  padding-bottom: 10rem;
+}
+.career-page-header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.career-page-header-menu {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.career-page-header-menu-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.career-page-header-name {
+    display: inline-flex;
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.career-page-intro{
+    padding-top: 6rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.main-text-container {
+  width: 42%; 
+  text-align: center; 
+  margin-inline: auto
+}
+.main-text {
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+
+.small-text{
+    padding-top: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-icon {
+    text-decoration: none;
+    color:#ffffff;
+  }
+
+  .newsletter-reminder{
+    text-align:center;
+    margin-top: 10rem;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .newsletter-reminder-below{
+    text-align:center;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  /* for the arrow shaped div */
+  .arrow-head-container {
+    position: relative;
+    /* width: 200px; */
+    min-height: 51vh;
+    background-color: #03009C; /* Blue background color */
+  }
+
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+
+  .triangle.left {
+    border-left: 50vw solid #EDF5FF;
+    border-top: 8vw solid transparent;
+    bottom: 0;
+    left: 0;
+  }
+
+  .triangle.right {
+    border-right: 50vw solid #EDF5FF;
+    border-top: 8vw solid transparent;
+    bottom: 0;
+    right: 0;
+  }
+
+  .triangle.top-left {
+    border-right: 50vw solid transparent;
+    border-bottom: 8vw solid #EDF5FF;
+    top: 0;
+    left: 0;
+    transform: scaleY(-1) scaleX(-1);
+    transform-origin: center;
+  }
+
+  .triangle.top-right {
+    border-left: 50vw solid transparent;
+    border-bottom: 8vw solid #EDF5FF;
+    top: 0;
+    right: 0;
+    transform: scaleX(-1) scaleY(-1);
+    transform-origin: center;
+  }
+
+
+  .main-text {
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-top: 5rem;
+}
+
+.small-text{
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.meet-text {
+    padding-top: 10rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.team-container{
+    width: 80%;
+    margin-inline:auto;
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+/* Rectangle 1 */
+.rectangles{
+  box-sizing: border-box;
+  width: 19%;
+  height: auto;
+  border: 0.873252px solid #C4C4C4;
+  border-radius: 32px;
+  background-color: #edf5ff2b;
+}
+
+.image-container {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+  border-radius: 50%;
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Remove any default inline spacing */
+}
+
+.position{
+  padding-top: 1rem;
+  text-align: center;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.team-name{
+  padding-top: 0.5rem;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+}
+
+.team-email{
+  padding-top: 0.5rem;
+  text-align: center;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mini-social-media-container{
+  width: 80%;
+  margin-inline:auto;
+  display: flex;
+  justify-content: center;
+  gap:0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.social-icon {
+  text-decoration: none;
+  color: black;
+  font-size: 0.6rem;
+}
+
+.icon-background{
+  background-color: white;
+  border-radius: 50%;
+  height: 1.8rem;
+  width: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-us-rows{
+  margin-inline:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+
+.choose-us-tiles{
+  background-color: #EDF5FF;
+  color: black;
+  width: 17rem;
+  height: 25rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 90%, 0% 100%);
+}
+
+.choose-us-title{
+  margin-top: 1rem;
+  margin-inline: 1rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Open sans', sans-serif;
+  font-size: 25px;
+}
+
+.choose-us-description{
+  margin-inline: 1rem;
+  margin-top: 1rem;
+  margin-bottom:3rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Open sans', sans-serif;
+  font-size: 13px;
+}
+
+.career-page-contact-button{
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 6rem;
+  padding-block: 0.4rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid black;
+  color: white;
+  border-radius: 1.2rem;
+  background-color: #03009C;
+}
+
+.career-page-contact-button:hover{
+  background-color: #020071b8;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+.career-page-intro{
+  padding-top: 0rem;
+}
+.career-page-header-container{
+  padding-bottom: 6rem;
+}
+.main-text-container{
+  width: 85%;
+}
+.choose-us-rows{
+  flex-direction: column;
+}
+}

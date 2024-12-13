@@ -1,0 +1,169 @@
+.footer {
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    background-color: #03009C;
+    padding: 3%;
+    gap: 7%;
+    color: white;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: auto;
+}
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Adjusted gap */
+    font-family: 'Poppins', sans-serif;
+  }
+  .center-column {
+    align-items: center;
+  }
+  .column-heading {
+    font-size: 14px;
+    /* font-weight: bold; */
+    margin-bottom: 18px;
+    white-space: nowrap;
+  }
+  .contact-info, .quick-links, .subscribe, .social-media {
+    font-size: 11px; /* 13 works nicely too */
+  }
+  .logo {
+    width: 35%;
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    padding-top: 2%;
+  }
+  
+  .quick-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact-icon{
+    padding-right: 5px;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column; /* Changed to column layout */
+    gap: 10px;
+    /* align-items: center; Center content */
+  }
+  .email-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .subscribe-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-media {
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; Center content */
+    cursor: pointer;
+    justify-content: space-between;
+
+  }
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  /* for custom email input */
+
+  .custom-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 215px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-field {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+
+  .arrow-circle {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .arrow {
+    color: white;
+    font-size: 18px;
+  }
+
+  .social-icon-footer {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-follow-us-on{
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  /* Styles for screens with a maximum width of 767px (typically mobile phones in portrait mode) */
+@media (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.logo {
+  padding-top: 9%;
+  }
+.column-heading {
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-top: 20px;
+  }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+.contact-info{
+  text-align: center;
+  }
+.footer-follow-us-on{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social-media[_ngcontent-ng-c2039174074] {
+    padding-bottom: 60px;
+}
+}

@@ -1,0 +1,53 @@
+.email-container{
+    padding-top: 1.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.email-input{
+    width: 30%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    font-weight: 100;
+    border: 0.5px solid black;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 10px;
+}
+
+.submit-button{
+    margin-left: 1rem;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 1.2rem;
+    border: 1px solid black;
+    background-color: #010071;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.submit-button:hover{
+    background-color: #6aadff;
+    transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+    
+    .email-container[_ngcontent-ng-c1102830001] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .email-input[_ngcontent-ng-c1102830001] {
+        width: 72%;
+    }
+    
+    .submit-button[_ngcontent-ng-c1102830001] {
+        margin-top: 8px;
+    }
+}

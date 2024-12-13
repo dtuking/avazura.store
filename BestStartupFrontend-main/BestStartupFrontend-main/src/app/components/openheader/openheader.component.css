@@ -1,0 +1,101 @@
+.page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+.page-header-logo {
+  display: block;
+}
+.page-header-logo-img{
+  width: 15rem;
+}
+
+.page-header-name {
+  display: inline-flex;
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Poiret One", cursive;
+  text-decoration: none;
+  color: white;
+}
+
+.page-header-menu {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.page-header-menu-text {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.non-desktop {
+  display: none;
+}
+.slide-down {
+  top: 0 !important; /* Slide down to the top of the viewport */
+}
+.sliding-div {
+  background-color: #020071; /* Background color of the sliding div */
+  position: fixed;
+  width: 100%;
+  height: 50%; /* Adjust as needed to cover 50% of the page from the top */
+  top: -50%; /* Initially off-screen */
+  left: 0;
+  transition: top 0.3s ease-in-out; /* Smooth transition effect */
+  z-index: 2; /* Ensure it appears above other content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Links container styles */
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between links as needed */
+  text-align: center;
+}
+.close-icon {
+    position: absolute;
+    top: 12%;
+    right: 6%;
+    cursor: pointer;
+}
+@media (max-width: 767px) {
+  .page-header-logo-img{
+    width: 12rem;
+  }
+  .page-header-name {
+    display: inline-flex;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Poiret One", cursive;
+    text-decoration: none;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .expandable-icon {
+    padding-right: 3%;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .non-desktop {
+    display: block;
+    cursor: pointer;
+  }
+}
